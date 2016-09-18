@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b8963e846f8709420d084541a323154f",
-    "content-hash": "fb91d5dbc20f7b6b34bfaf38be9f4b31",
+    "hash": "12e9f07b9a5a82ec60ce51c9077c00ed",
+    "content-hash": "23533f7a3d39aa15b6d9e93ecab3f238",
     "packages": [
         {
             "name": "composer/installers",
@@ -194,6 +194,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
+            "name": "wpackagist-plugin/cyr3lat",
+            "version": "3.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cyr3lat/",
+                "reference": "tags/3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cyr3lat.3.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cyr3lat/"
         },
         {
             "name": "wpackagist-plugin/limit-login-attempts",
