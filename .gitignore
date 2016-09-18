@@ -122,7 +122,7 @@ Rails
 
 # Theme files
 ##########
-wp/wp-content/themes/*/node_modules
+
 wp/replace/composer.json
 wp/replace/index.php
 wp/replace/package.json
